@@ -62,7 +62,7 @@ namespace TheWorldMapManagerUnitTest
 		{
 			MapManager mapManager;
 			mapManager.instrument(true);
-			mapManager.debugMode(true);
+			mapManager.consoleDebugMode(true);
 
 			// init
 			WorldDefiner WD1(2, 3, WDType::elevator, WDFunctionType::cosin, (float)0.5, (float)50);
@@ -101,7 +101,7 @@ namespace TheWorldMapManagerUnitTest
 		{
 			MapManager mapManager;
 			mapManager.instrument(true);
-			mapManager.debugMode(true);
+			mapManager.consoleDebugMode(true);
 
 			// init
 			WorldDefiner WD1(2, 3, WDType::elevator, WDFunctionType::cosin, (float)0.5, (float)50);
@@ -129,7 +129,7 @@ namespace TheWorldMapManagerUnitTest
 		{
 			MapManager mapManager;
 			mapManager.instrument(true);
-			mapManager.debugMode(true);
+			mapManager.consoleDebugMode(true);
 
 			// init
 			WorldDefiner WD1(2, 3, WDType::elevator, WDFunctionType::cosin, (float)0.5, (float)50);
