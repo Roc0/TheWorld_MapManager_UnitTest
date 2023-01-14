@@ -65,7 +65,7 @@ namespace TheWorldMapManagerUnitTest
 			mapManager.consoleDebugMode(true);
 
 			// init
-			WorldDefiner WD1(2, 3, WDType::elevator, WDFunctionType::cosin, (float)0.5, (float)50);
+			WorldDefiner WD1(2, 3, WDType::elevator, WDFunctionType::MaxEffectOnWD, (float)0.5, (float)50);
 			bool bDeleted = mapManager.eraseWD(WD1);
 			mapManager.UpdateValues();
 			int iNumZero = mapManager.getNumVertexMarkedForUpdate();
@@ -104,7 +104,7 @@ namespace TheWorldMapManagerUnitTest
 			mapManager.consoleDebugMode(true);
 
 			// init
-			WorldDefiner WD1(2, 3, WDType::elevator, WDFunctionType::cosin, (float)0.5, (float)50);
+			WorldDefiner WD1(2, 3, WDType::elevator, WDFunctionType::MaxEffectOnWD, (float)0.5, (float)50);
 			bool bDeleted = mapManager.eraseWD(WD1);
 			mapManager.UpdateValues();
 			int iNumZero = mapManager.getNumVertexMarkedForUpdate();
@@ -132,7 +132,7 @@ namespace TheWorldMapManagerUnitTest
 			mapManager.consoleDebugMode(true);
 
 			// init
-			WorldDefiner WD1(2, 3, WDType::elevator, WDFunctionType::cosin, (float)0.5, (float)50);
+			WorldDefiner WD1(2, 3, WDType::elevator, WDFunctionType::MaxEffectOnWD, (float)0.5, (float)50);
 			bool bDeleted = mapManager.eraseWD(WD1);
 			mapManager.UpdateValues();
 			int iNumZero = mapManager.getNumVertexMarkedForUpdate();
