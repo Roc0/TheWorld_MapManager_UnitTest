@@ -59,7 +59,7 @@ namespace TheWorldMapManagerUnitTest
 			Assert::AreEqual(azimuthDegree, (float)360 - azimuthDegreeResulting, azimuthDegree / 1000000);
 		}
 		TEST_METHOD(TestMethodAddAndEraseWD1)
-		{
+	{
 			MapManager mapManager;
 			mapManager.instrument(true);
 			mapManager.consoleDebugMode(true);
